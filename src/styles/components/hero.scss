@@ -1,0 +1,31 @@
+.hero {
+    height: 820px;    
+}
+
+.hero .container {
+    background-image: url('../../assets/images/bg.jpg');
+    background-position: center -90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.hero__text {
+    max-width: 490px;
+    color: var(--light-color);
+    transform: translateY(160px);
+    margin-left: 60px;
+}
+
+.hero__title {
+    font-family: "Merriweather",serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: var(--font-size-3x);
+    line-height: var(--line-height-3x);
+}
+
+.hero__description {
+    line-height: var(--line-height-1);
+    padding: 10px 0 25px 0;
+}
