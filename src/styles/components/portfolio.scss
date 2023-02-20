@@ -1,53 +1,53 @@
 .portfolio__title {
-    margin-top: 60px !important;
+  margin-top: 60px !important;
 }
 
 .portfolio__btn-group {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 60px;
-    gap: 5px;
-    margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+  gap: 5px;
+  margin-top: 2px;
 }
 
 .portfolio__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
-    gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 25px;
 }
 
 .portfolio__item {
-    width: 450px;
-    height: 560px;
-    background: var(--accent-color);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 450px;
+  height: 560px;
+  background: var(--accent-color);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .portfolio__item:nth-of-type(1) {
-    background-image: url('../../assets/images/portfolio-img.jpg');
+  background-image: url("../../images/portfolio-img.jpg");
 }
 
 .portfolio__item:nth-of-type(2) {
-    background-image: url('../../assets/images/portfolio-img-1.jpg');
+  background-image: url("../../images/portfolio-img-1.jpg");
 }
 
 .portfolio__item:nth-of-type(3) {
-    background-image: url('../../assets/images/portfolio-img-2.jpg');
+  background-image: url("../../images/portfolio-img-2.jpg");
 }
 
 .portfolio__item:nth-of-type(4) {
-    background-image: url('../../assets/images/portfolio-img-3.jpg');
+  background-image: url("../../images/portfolio-img-3.jpg");
 }
 
 .portfolio__item:nth-of-type(5) {
-    background-image: url('../../assets/images/portfolio-img-4.jpg');
+  background-image: url("../../images/portfolio-img-4.jpg");
 }
 
 .portfolio__item:nth-of-type(6) {
-    background-image: url('../../assets/images/portfolio-img-5.jpg');
+  background-image: url("../../images/portfolio-img-5.jpg");
 }

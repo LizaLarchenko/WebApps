@@ -1,61 +1,61 @@
 .footer .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--light-color);
-    padding: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--light-color);
+  padding: 50px 20px;
 }
 
-.footer__info span{
-    margin: 0 15px;
+.footer__info span {
+  margin: 0 15px;
 }
 
 .footer__social {
-    list-style: none;
-    display: flex;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 .footer__social-item {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .footer__social-item:first-of-type {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .footer__github-link {
-    text-transform: lowercase;
+  text-transform: lowercase;
 }
 
 .footer__social-link {
-    display: block;
-    width: 32px;
-    height: 32px;
-    background: var(--light-color);    
-    transition: .4s;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: var(--light-color);
+  transition: 0.4s;
 }
 
 .footer__social-link:hover {
-    background: var(--accent-color);
+  background: var(--accent-color);
 }
 
 .footer__social-link.inst {
-    -webkit-mask-image: url('../../assets/images/inst.svg');
-    -webkit-mask-size: cover;
+  -webkit-mask-image: url("../../images/inst.svg");
+  -webkit-mask-size: cover;
 }
 
 .footer__social-link.fb {
-    -webkit-mask-image: url('../../assets/images/fb.svg');
-    -webkit-mask-size: cover;
+  -webkit-mask-image: url("../../images/fb.svg");
+  -webkit-mask-size: cover;
 }
 
 .footer__social-link.tw {
-    -webkit-mask-image: url('../../assets/images/tw.svg');
-    -webkit-mask-size: cover;
+  -webkit-mask-image: url("../../images/tw.svg");
+  -webkit-mask-size: cover;
 }
 
 .footer__social-link.pinterest {
-    -webkit-mask-image: url('../../assets/images/pinterest.svg');
-    -webkit-mask-size: cover;
+  -webkit-mask-image: url("../../images/pinterest.svg");
+  -webkit-mask-size: cover;
 }

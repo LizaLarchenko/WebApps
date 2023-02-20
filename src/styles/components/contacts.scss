@@ -1,57 +1,57 @@
 .contacts {
-    height: 700px;
-    background-image: url('../../assets/images/contacts.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    padding: 60px 0 95px;
+  height: 700px;
+  background-image: url("../../images/contacts.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  padding: 60px 0 95px;
 }
 
 .contacts__content {
-    width: 450px;
+  width: 450px;
 }
 
 .contacts .container {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 
 .contacts__title {
-    font-family: 'Merriweather', serif;
-    font-size: var(--font-size-2x);
-    font-style: normal;
-    font-weight: 700;
-    line-height: var(--line-height-2x);
-    margin-bottom: 40px;
+  font-family: "Merriweather", serif;
+  font-size: var(--font-size-2x);
+  font-style: normal;
+  font-weight: 700;
+  line-height: var(--line-height-2x);
+  margin-bottom: 40px;
 }
 
 .contacts__form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .contacts__form input,
 .contacts__form textarea {
-    background: rgba(0, 0, 0, 0.5);
-    border: 2px solid #BDAE82;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    font-family: 'Inter', sans-serif;
-    font-size: var(--font-size-1);
-    font-style: normal;
-    font-weight: 400;
-    line-height: var(--line-height-1);
-    color: var(--accent-color);
-    padding: 3px 20px;
-    outline: none;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid #bdae82;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: var(--font-size-1);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--line-height-1);
+  color: var(--accent-color);
+  padding: 3px 20px;
+  outline: none;
 }
 
 .contacts__form textarea {
-    resize: none;
-    height: 100px;
-    margin-bottom: 30px;
+  resize: none;
+  height: 100px;
+  margin-bottom: 30px;
 }
 
 .contacts__form .btn {
-    align-self: flex-start;
+  align-self: flex-start;
 }

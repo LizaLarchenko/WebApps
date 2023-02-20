@@ -246,7 +246,7 @@ a:hover {
   /* Hero section style */
 
   .hero {
-    background-image: url("../assets/images/bg-2x.jpg");
+    background-image: url("../images/bg-2x.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -296,6 +296,11 @@ a:hover {
     margin: 70px 0 50px;
   }
 
+  .portfolio__btn-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   /* Video section styles */
 
   .video .container {
@@ -321,10 +326,13 @@ a:hover {
 
   .price__list {
     margin: 8px 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
   }
 
   .price__item {
-    margin: 0 auto 50px;
+    margin: 0 auto 15px;
     width: 420px;
   }
 
